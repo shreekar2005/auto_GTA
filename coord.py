@@ -5,7 +5,7 @@ import pygetwindow as gw
 def coord():
     window = gw.getWindowsWithTitle("Grand Theft Auto V")[0]
     x1, y1, x2, y2 = window.left, window.top, window.left + window.width, window.top + window.height
-    x1+=8
+    x1+=8  #these are are just some corrections for getting perfect game window
     y1+=35
     x2-=8
     y2-=5
