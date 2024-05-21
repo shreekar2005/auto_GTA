@@ -13,7 +13,7 @@ df= pd.DataFrame(
     },
     #index=[0, 1, 2, 3],
 )
-#print(df)
+print(df)
 train_data=df.to_numpy()
 print(Counter(df[1].apply(str)))
 

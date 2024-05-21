@@ -30,3 +30,4 @@ def alexnet(width, height, lr):
                         max_checkpoints=1, tensorboard_verbose=2, tensorboard_dir='log')
 
     return model
+

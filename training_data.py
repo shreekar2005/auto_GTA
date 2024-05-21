@@ -83,8 +83,8 @@ def main():
         output = np.array(keys_to_output(keys))
         
         #training_data.append([screen,output])
-        print(screen)
-        print(output)
+        #print(screen)
+        #print(output)
         training_data_x.append(screen)
         training_data_y.append(output)
         
@@ -92,7 +92,7 @@ def main():
             cv2.destroyAllWindows()
             break
         
-        if len(training_data_x) % 50 == 0:
+        if len(training_data_x) % 500 == 0:
             print(len(training_data_x))
             print(len(training_data_y))
             np.save(file_x,training_data_x)

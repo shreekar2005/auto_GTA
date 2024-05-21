@@ -1,9 +1,2 @@
-import numpy
-a=numpy.array([[[1,2],[1,4],[1,6]]])
-print(a)
-a_del = numpy.delete(a,0, 0,0)
-print(a.shape)
-
-
-
-
+import tensorflow as tf
+print("Num GPUs Available: ", len(tf.config.list_physical_devices('GPU')))
